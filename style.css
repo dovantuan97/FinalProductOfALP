@@ -1,0 +1,93 @@
+.contain{
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: #3cb878;
+}
+
+.newsletter{
+  color: grey;
+  border: thin solid #cfcfcf;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.newsletter button{
+  background: #3cb878;
+  border: none;
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+  width: 99%;
+  height: 25px;
+}
+
+.newsletter input#email{
+  display: block;
+  width: 99%;
+  height: 25px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: thin solid #cfcfcf;
+  box-sizing: border-box
+}
+
+.newsletter h3{
+  margin-top: 0px;
+}
+
+.newsletter input#terms{
+  margin-bottom: 5px;
+  position: relative;
+}
+
+u{
+  color: violet;
+}
+
+.newsletter #x{
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
+#moreinfo{
+  background: #3cb878;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 75px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 0px 7px 3px grey;
+}
+
+.card{
+  background: #3cb878;
+  width: 180px;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 7px 3px grey;
+}
+
+#cardholder{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
